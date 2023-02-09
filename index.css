@@ -4,10 +4,30 @@
   align-items: center;
 }
 
-#github-container {
+/* #github-container {
   display: flex;
+} */
+
+#user-list {
+  list-style: none;
+  display : grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+#repos-list {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
 }
 
 ul {
   list-style: none;
 }
+
+button:hover {
+  background-color: bisque;
+  cursor : pointer;
+}
+
